@@ -27,7 +27,7 @@
         "type": "image/png"
       }],
     "start_url": "/index.html",
-    "display": "standalone",
+    "display": "browser",
     "orientation": "portrait",
     "background_color": "#3E4EB8",
     "theme_color": "#2F3BA2"
