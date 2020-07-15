@@ -1,0 +1,19 @@
+{
+  "people": [
+    {
+      "id": 0,
+      "name": "Anna"
+    },
+    {
+      "id": 1,
+      "name": "Ted"
+    }
+  ],
+  "todolist": [
+    {
+      "desc": "123",
+      "isComplete": true,
+      "id": 1
+    }
+  ]
+}
