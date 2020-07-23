@@ -1,0 +1,7 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><title>PWA To-Do List</title><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/><link rel="manifest" href="./manifest.json"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="apple-mobile-web-app-title" content="Weather PWA"><link rel="apple-touch-icon" href="./images/icons/icon-152x152.png"><meta name="description" content="A sample weather app"><meta name="theme-color" content="#2F3BA2"/><link rel="stylesheet" href="./assets/main.css"></head><body><div id="root"></div><script>if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./sw.js')
+                    .then(reg => console.log('SW registered!', reg))
+                    .catch(err => console.log('Error!', err));
+            })
+        }</script><script src="main.da9a7dfdc7d6971a679a.js"></script></body></html>
