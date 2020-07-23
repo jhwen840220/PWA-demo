@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { render } from 'react-dom';
-
+import icAdd from '../../assets/images/ic_add.png'
 
 const Input = ({ addTodoList }) => {
     
@@ -10,7 +10,7 @@ const Input = ({ addTodoList }) => {
         <div id="todoInput" className="input-content">
             <img
                 className="add"
-                src="./assets/images/ic_add.png"
+                src={icAdd}
                 alt=""
             />
             <input

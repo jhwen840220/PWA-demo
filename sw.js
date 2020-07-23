@@ -7,7 +7,7 @@ const FILES_TO_CACHE = [
 	'/assets/main.css',
 	'/assets/images/btn_del.png',
 	'/assets/images/ic_add.png',
-	'/images/icons/icon-144x144.png',
+	'/assets/images/icon-192x192.png',
 	'/offline.html',
 	'/manifest.json'
 ];

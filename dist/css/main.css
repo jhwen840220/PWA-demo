@@ -107,7 +107,7 @@ table {
     vertical-align: middle;
     margin-right: 20px;
     margin-left: 60px;
-    background-image: url("../assets/images/btn_check.png");
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAwhJREFUSA3FVztoVEEUvXfeRvdTiAENhizEQiGFNtuFCEIWKwUhfrBTCyGNICliZwoVjQbBZl0RtIuCgoKNEIiiaJOQwkpBUFYMBIxN9sOa98Y5kzfLe7P7NtkPZiCZub9z3sydz12mLbQpKcWHysNh6XonlXuGSPZLpn6EsqRf6r/6o0V2xMuR+KWPU8webM0aNzOel4/jhWLlsvKZkCT3NvM1NiZeUeOZdCp+/wlfqBi93UcSZ0u5MSnlPSkpbQdtRWamAjNfmUuOv2jkL2ylIuPRYu6G58nn7ZICE7HAABYwbZ6QAg7ZYm5WEp21HTuRFcmzudT4ObUCCnqjhWacLT243m1S0AAT2D6n7mozRk6xNEFjt8dC8CmTcz1j7F5spG4T2XjgABf0mhhHppONZBNEyeDwjycJXA7KcSLKuVV9xhmgR4kzlI+fpiHR1yh8ApycLedHPNd938ijVd2wM0jXdh6jGDs69If3hy6Wn9bBCMc5IvxrsM7YqsImRXycYg1hwIllVndvZ60RqacSmq9+igLOqE+S+rK3PfZzL431HKbfskizf5eoQuu2i5ajSO9W5+md+61hDDhj+pWp3Scbfj3k0HTiBPVyUisyTpomK6+pSNUQUDPSN+tfQr5BAZz6OAWVGO/mRI0U8pDTR7fjxylFOyDq1i6pDpastrV+T300v1uRa7SwXggpg+QdkSpUJrnMo2u5efXWHg2xKAE78paa5SFnX8j03VulAd5VOzIwYiMhp82WNwii3uy3WOrFoNKMsZmuqrx+dpeNSveDorcjUoBIIRcEypUQckCIIjcurc7UxCnSVwI1kl+uGH2ojyJvlxRc4BR+YTYTYrMEQ77k/tSWqnTpTgs5teBmwKnfY13Ulcpf8XpYTnXiAbFHXyqrslRn20yBOiydTBxEEbi9hQC+FJWBqolubvbV7dqBbaoPYNRmDGHbij1UgX412LWZ65laFWbdjKEw7b8X9IYY+cAOVOdustk5N/6mhy9iEBvMqbGbPpRjo7R71Ejd/tH2Dxu7gsi8mhDqAAAAAElFTkSuQmCC);
     cursor: pointer;
 }
 
@@ -118,7 +118,7 @@ table {
     height: 30px;
     display: inline-block;
     vertical-align: middle;
-    background-image: url("../assets/images/btn_del.png");
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAX5JREFUSA3tlU1OAzEMheMOt0DiQBWbig0/ezZI9CxFYgF7fjaoG8SBENyiU+OX8kZRFGfSRTfVjFQ5kzz7G9tpEsL0TBU4tgqIl5Be3891G55tvZdO7uRl9elp03m9WZ5rr48218ks3Mrrw1e6zvGMg9wCqkFP7XdmgdZ6tbzINfk7NFELH/hqeMo1fHfBJugpsiAnqvpeg0coNKalX9CwHcbZwAXH8gbZUF+Dl6BivohB/9z6YOupiFwiAJ1KcBcK38q+cDfXAEPfshLGbCwwNN6avK0+GKNkR8ExuAOPa0lP+UFjUPg1gT045vnsA4VPMxjiUj93QWwjoacj5YWWj7u5KDiUbc7Yy5YfdpBSl6AAAZoeGPvARzP2oOhpBDt/tbF+V8E1KAO3aNiO1Lrg/1tm3VJKF97Jwju93F2Nq60FiiyQffF43V2PaaLD2AWboqOqZdOU4GkMxqJ1wfESD/Jr0G+7ZRbsKR1LNsKhhY/ID2KUdNPcVIHjrMAf+H0SNLS30YQAAAAASUVORK5CYII=);
     cursor: pointer;
 }
 
@@ -148,3 +148,4 @@ table {
     display: inline-block;
     vertical-align: middle;
 }
+
