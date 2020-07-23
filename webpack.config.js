@@ -4,6 +4,7 @@ const SWPrecacheWebpackPlugin = require('sw-precache-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");   
+const FaviconsWebpackPlugin = require('favicons-webpack-plugin')
 
 const config = {
 
@@ -43,7 +44,7 @@ const config = {
     }, {
       test: /\.(png|jpg|jpeg)$/,
       use: [{
-        loader: 'url-loader',
+        loader: 'file-loader',
         // options: {
         //   name: '[hash:8].[name].[ext]',
         //   outputPath: 'assets/'
@@ -61,9 +62,10 @@ const config = {
     }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin({
-      filename: "./css/[name].css",
-      chunkFilename: "./css/[id].css"
-    })
+      filename: "./[name].css",
+      chunkFilename: "./[id].css"
+    }),
+    new FaviconsWebpackPlugin('./assets/images/icon-192x192.png')
   ],
 
 //   devServer: {
