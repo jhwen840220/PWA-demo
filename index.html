@@ -15,34 +15,10 @@
     <meta name="description" content="A sample weather app">
     <!-- CODELAB: Add meta theme-color -->
     <meta name="theme-color" content="#2F3BA2" />
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./assets/main.css">
 </head>
 <body>
-    <header class="header">
-        <img
-            class="logo"
-            src="./images/icons/icon-32x32.png"
-            alt=""
-            width="32"
-            height="32"
-        />
-        <div class="unfinished">
-            <span class="count">0</span>
-            <span>個未完成</span>
-        </div>
-    </header>
-    <div class="body">
-        <div id="todoInput" class="input-content">
-            <input
-                class="input"
-                placeholder="What need to be done?"
-                value=""
-                type="text"
-            />
-            <button class="add">新增</button>
-        </div>
-        <ul id="todoList"></ul>
-    </div>
+    <div id="root"></div>
     <script>
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
@@ -52,6 +28,5 @@
             })
         }
     </script>
-    <script src="./main.js"></script>
 </body>
 </html>
