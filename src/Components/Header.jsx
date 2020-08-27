@@ -23,6 +23,6 @@ class Header extends Component {
 export default connect(state => {
     return {
         unfinishedCount: state.todolist
-                        .filter((item)=>!item.isComplete).length
+            .filter((item)=>!item.isComplete).length
     }
 })(Header);

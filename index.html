@@ -9,22 +9,23 @@
     <!-- CODELAB: Add iOS meta tags and icons -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="Weather PWA">
-    <!-- <link rel="apple-touch-icon" href="./assets/images/icon-192x192.png"> -->
+    <meta name="apple-mobile-web-app-title" content="PWA To-Do List">
+    <!-- <link rel="apple-touch-icon" href="/assets/images/icon-192x192.png"> -->
+    
     <!-- CODELAB: Add description here -->
     <meta name="description" content="A sample weather app">
     <!-- CODELAB: Add meta theme-color -->
     <meta name="theme-color" content="#2F3BA2" />
+    <script src="./idb.js"></script>
+    <script src="./utility.js"></script>
 </head>
 <body>
     <div id="root"></div>
     <script>
         if ('serviceWorker' in navigator) {
-            window.addEventListener('load', () => {
-                navigator.serviceWorker.register('./sw.js')
-                    .then(reg => console.log('SW registered!', reg))
-                    .catch(err => console.log('Error!', err));
-            })
+            navigator.serviceWorker.register('./sw.js')
+                .then(reg => console.log('SW registered! scope is:', reg.scope))
+                .catch(err => console.log('Error!', err));
         }
     </script>
 </body>

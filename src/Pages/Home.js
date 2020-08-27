@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
-import { connect } from 'react-redux';
-import Main from '../Containers/Main.jsx';
+import MainLayout from '../Layouts/MainLayout.jsx'
+import InputContainer from '../Containers/InputContainer.jsx';
+import TodoListContainer from '../Containers/TodoListContainer.jsx';
 
 class Home extends Component {
     render() {
         return (
-            <div>
-                <Main />
-            </div>
+            <MainLayout>
+                <InputContainer />
+                <TodoListContainer />
+            </MainLayout>
         );
     }
 }
 
-export default (Home);
+export default Home;

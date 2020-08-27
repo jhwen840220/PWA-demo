@@ -16,6 +16,7 @@
     "css-loader": "^3.6.0",
     "favicons-webpack-plugin": "^3.0.1",
     "file-loader": "^6.0.0",
+    "html-webpack-injector": "^1.1.4",
     "html-webpack-plugin": "^4.3.0",
     "mini-css-extract-plugin": "^0.9.0",
     "node-sass": "^4.14.1",
@@ -29,14 +30,17 @@
     "sass-loader": "^9.0.2",
     "sw-precache-webpack-plugin": "^1.0.0",
     "url-loader": "^4.1.0",
+    "web-push": "^3.4.4",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.12",
+    "webpack-dev-middleware": "^3.7.2",
     "webpack-dev-server": "^3.11.0"
   },
   "scripts": {
     "start": "webpack-dev-server --port 8081",
     "build": "webpack -p",
     "json": "json-server db.json",
+    "web-push": "web-push",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -48,5 +52,11 @@
   "bugs": {
     "url": "https://github.com/jhwen840220/PWA-demo/issues"
   },
-  "homepage": "https://github.com/jhwen840220/PWA-demo#readme"
+  "homepage": "https://github.com/jhwen840220/PWA-demo#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-static": "^1.2.6",
+    "idb": "^5.0.4"
+  }
 }
